@@ -1,0 +1,8 @@
+doctype html
+html( lang="en" )
+  head
+    title Hello World
+  body
+    h1= state.get('name')
+    h2#h2= state.get('colors').join(', ')
+    script( src="/bundle.js" )

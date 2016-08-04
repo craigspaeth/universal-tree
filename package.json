@@ -1,0 +1,36 @@
+{
+  "name": "universal-tree",
+  "version": "0.0.1",
+  "description": "Tiny wrapper around Baobab for an OOTB universal state tree",
+  "main": "index.js",
+  "dependencies": {
+    "baobab": "^2.3.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mocha": "^3.0.1",
+    "standard": "^7.1.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "example": "browserify example/client.js > example/bundle.js && node example/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigspaeth/universal-tree.git"
+  },
+  "keywords": [
+    "baobab",
+    "tree",
+    "universal",
+    "isomorphic"
+  ],
+  "author": "Craig Spaeth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigspaeth/universal-tree/issues"
+  },
+  "homepage": "https://github.com/craigspaeth/universal-tree#readme"
+}
